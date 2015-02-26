@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HHViewController : UIViewController
+#import <HHAFNetwork/HHLabel.h>
+@interface HHViewController : UIViewController{
+    HHLabel *label;
+}
 
 @end

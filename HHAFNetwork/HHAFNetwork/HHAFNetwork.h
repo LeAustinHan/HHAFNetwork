@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+//#import <HHAFNetwork/HHLabel.h>
+#import "HHLabel.h"
 
-@interface HHAFNetwork : NSObject
+@interface HHAFNetwork : NSObject{
+    HHLabel *label;
+}
 
 @end

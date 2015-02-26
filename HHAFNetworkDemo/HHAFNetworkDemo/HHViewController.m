@@ -18,6 +18,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    label = [[HHLabel alloc] initWithFrame:CGRectMake(75, 100, 170, 80)];
+    label.textAlignment = NSTextAlignmentCenter;
+    label.text = @"frameLabel";
+    [self.view addSubview:label];
+    
+    [label testFramework];
 }
 
 - (void)didReceiveMemoryWarning
